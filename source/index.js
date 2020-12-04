@@ -13,7 +13,10 @@ const api_config = require('./config/api_config.json');
 
 const app = express();
 
+const get = require('./routes/get.js')
 
+
+app.use('/', get);
 
 app.listen(api_config.port, () => {
 

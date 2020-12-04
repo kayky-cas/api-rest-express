@@ -1,4 +1,4 @@
 {
-    "port": "PORTA",
-    "uri": "URI"
+    "port": 3000,
+    "uri": "localhost"
 }
