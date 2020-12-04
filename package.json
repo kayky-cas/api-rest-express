@@ -1,8 +1,8 @@
 {
-  "name": "api-rest",
+  "name": "api-rest-express",
   "version": "1.0.0",
   "description": "Api-Rest desenvolvida durante uma aula da matéria de Criação de Sites",
-  "main": "index.js",
+  "main": "source/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,9 +12,16 @@
   },
   "keywords": [
     "api",
-    "resy",
-    "express"
+    "rest",
+    "express",
+    "mongo"
   ],
   "author": "Kayky Casagrande",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.3",
+    "nodemon": "^2.0.6"
+  }
 }
