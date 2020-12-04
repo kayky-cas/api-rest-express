@@ -1,0 +1,7 @@
+{
+    "url": "URL",
+    "database": "DATABASE",
+    "config": {
+        "useNewUrlParser": true
+    }
+}
