@@ -5,18 +5,15 @@
  */
 
 const express = require('express');
-
-// Criar uma pasta config e adiconar as configurações em um arquivo api_config.json
 const bodyParser = require('body-parser');
-const api_config = require('./config/api_config.json');
+
+const api_config = require('./config/api.json');
 
 
 const app = express();
+const router = require('./routes');
 
-const get = require('./routes/get.js')
-
-
-app.use('/', get);
+app.use('/api', router);
 
 app.listen(api_config.port, () => {
 
